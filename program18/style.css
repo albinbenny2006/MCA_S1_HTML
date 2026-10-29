@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 250px;
+    height: 440px;
+    background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: black;
+}
+
+button {
+    display: block;
+    width: 170px;
+    margin: 20px auto;
+    padding: 12px;
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightgray;
+}
